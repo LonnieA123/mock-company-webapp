@@ -128,7 +128,7 @@ class SearchControllerSpec extends Specification {
         !results.contains(item2)
         results.contains(item3) // Matches will on description
     }
-
+    //please
     def "search will only match exactly on name or description when quotes are used"() {
         given:
         ProductItem item1 = createItem("Will Match", "This is a good item")
